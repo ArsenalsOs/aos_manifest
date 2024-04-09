@@ -27,7 +27,7 @@
   <project path="hardware/qcom/audio" name="LineageOS-UL/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="losul" revision="dade8f0cd7dd01e0a17a8c4382174edececb17cb" />
   <project path="hardware/qcom/bt" name="LineageOS-UL/android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="losul" revision="f155c6648a11d52b266bc70ad98c3f0f4c26c1db" />
   <project path="hardware/qcom/display" name="LineageOS-UL/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="losul" revision="23e99e044e3d40ee35b8ac52dd9bedbf64df5cf4" />
-  <project path="hardware/qcom/gps" name="LineageOS-UL/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" remote="losul" revision="9bd070f8a1cb36c9ddc2900951b6874cd0ecd2cf" />
+  <project path="hardware/qcom/gps" name="LineageOS-UL/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" remote="losul" upstream="lineage-18.1" dest-branch="lineage-18.1" revision="9bd070f8a1cb36c9ddc2900951b6874cd0ecd2cf" />
   <project path="hardware/qcom/media" name="LineageOS-UL/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="losul" revision="be72de4fa4be75a20794c4b0d5beab982eb95bb5" />
   <project path="hardware/qcom-caf/common" name="LineageOS-UL/android_hardware_qcom-caf_common" groups="qcom" remote="losul" revision="f382bb51971a56fad66fb854f0d888d2d9eda4f2" >
     <!-- add guard for AOSP hardware/qcom dir -->
