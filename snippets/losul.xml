@@ -82,7 +82,6 @@
   <project path="hardware/qcom-caf/wlan" name="LineageOS-UL/android_hardware_qcom_wlan" groups="qcom,waipio-vendor" remote="losul" revision="b21e5f987ced9bdaf56c78f54130853fadec0a10" upstream="lineage-21.0-caf" dest-branch="lineage-21.0-caf" />
 
   <project path="packages/apps/Nfc" name="LineageOS-UL/android_packages_apps_Nfc" remote="losul" revision="c25111dfa764f4eb1714d275cece3ec919dcb458" />
-  <!--<project path="packages/inputmethods/LatinIME" name="LineageOS-UL/android_packages_inputmethods_LatinIME" remote="losul" />-->
   <project path="packages/apps/Settings" name="LineageOS-UL/android_packages_apps_Settings" groups="pdk-fs" remote="losul" revision="6c22f1b262f81d5fda12d5e346dfabb922c2b922" />
   <project path="packages/modules/adb" name="LineageOS-UL/android_packages_modules_adb" remote="losul" revision="3d1d33a54a3f1df03d15a247004a273c445b74bc" />
   <project path="packages/modules/Bluetooth" name="LineageOS-UL/android_packages_modules_Bluetooth" remote="losul" revision="ffa6ad07b2dcaeecfd962620869a60518c914765" />
