@@ -2,96 +2,96 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project path="android" name="LineageOS/android" />
-  <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
-  <project path="device/lineage/car" name="LineageOS/android_device_lineage_car" />
+  <project path="android" name="LineageOS/android" revision="56bf1c3bd4c36d89928325ba06fe15d54d28534a" />
+  <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" revision="e7f731a1c6deaec9cbef0910c49cf2262c20c1f2" />
+  <project path="device/lineage/car" name="LineageOS/android_device_lineage_car" revision="b588ae4550fcc9dec7427bfdba498826d8ced50c" />
   <!--<project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />-->
-  <project path="external/bash" name="LineageOS/android_external_bash" />
-  <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" groups="pdk" revision="main" >
+  <project path="external/bash" name="LineageOS/android_external_bash" revision="9f59ea3199a83697b4e1adcd4ac35484ac824c67" />
+  <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" groups="pdk" upstream="main" dest-branch="main" revision="864d156749fb347d47c2142e694abb566f5b4dd4" >
     <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
     <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
     <linkfile src="README" dest="external/chromium-webview/README" />
   </project>
-  <project path="external/chromium-webview/prebuilt/arm" name="LineageOS/android_external_chromium-webview_prebuilt_arm" groups="pdk" revision="main" />
-  <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" revision="main" />
-  <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" />
-  <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" />
-  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" />
-  <project path="external/htop" name="LineageOS/android_external_htop" />
-  <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
-  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" revision="lineage-18.1"/>
-  <project path="external/nano" name="LineageOS/android_external_nano" />
-  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
-  <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" />
-  <project path="external/rsync" name="LineageOS/android_external_rsync" />
-  <project path="external/unrar" name="LineageOS/android_external_unrar" />
-  <project path="external/vim" name="LineageOS/android_external_vim" />
+  <project path="external/chromium-webview/prebuilt/arm" name="LineageOS/android_external_chromium-webview_prebuilt_arm" groups="pdk" upstream="main" dest-branch="main" revision="05a960b394b90fc4ed57fd37417253bff82ead9f" />
+  <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" upstream="main" dest-branch="main" revision="417dec3b8a2fb0a13ff9c48b17ed525c6723c97d" />
+  <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" upstream="main" dest-branch="main" revision="5e4902fdd966113cbe34396af0ab60d2b92b3a8f" />
+  <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" upstream="main" dest-branch="main" revision="fb4141f37e564f80030927ed10c7e10a22cd008f" />
+  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" revision="ad5115d6d20ac8850387d65230ac99ae4ffb2aa7" />
+  <project path="external/htop" name="LineageOS/android_external_htop" revision="a7cad314ca4607545f802dd47f700574f633564b" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" revision="2d87040ef56d93aa0ac4331fc3dfafdfdc5e9f8a" />
+  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" upstream="lineage-18.1" dest-branch="lineage-18.1" revision="e4fb0694ac4eb888f098598bd895587b71747ce5"/>
+  <project path="external/nano" name="LineageOS/android_external_nano" revision="12f8158ea5ad849665d2fe5a83fafc056f5bbbb9" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" revision="7471d6403640f1cd0878cc2c87279571a497bcb7" />
+  <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" revision="e6133bc90c2ea5d44cff82e2a241f01e98fbf0c2" />
+  <project path="external/rsync" name="LineageOS/android_external_rsync" revision="cdb7e988d31d769ecfc20633467952528e0e5707" />
+  <project path="external/unrar" name="LineageOS/android_external_unrar" revision="33790f0663cc9e3323f0cd21cd8873301ed1cd79" />
+  <project path="external/vim" name="LineageOS/android_external_vim" revision="f295b0c918c7669c68ef2dbaab4f26148cf54c2e" />
     <!--<project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" />-->
-  <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" />
+  <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" revision="ba33c37b07e21871d89cfa32a583df929cf13734" />
   <!--<project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />-->
-  <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />
-  <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
-  <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" />
-  <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
-  <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
-  <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
-  <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
-  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" />
-  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
-  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
-  <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />
-  <project path="packages/apps/Glimpse" name="LineageOS/android_packages_apps_Glimpse" />
-  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
-  <project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer" />
-  <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
-  <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
-  <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
-  <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" />
-  <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
-  <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" />
-  <project path="packages/apps/SimpleSettingsConfig" name="LineageOS/android_packages_apps_SimpleSettingsConfig" />
-  <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
-  <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
-  <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" />
-  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" />
-  <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin" />
+  <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" revision="3e298771b18d6c0e28350f50c7204c3c036662b8" />
+  <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" revision="36e14240ebf236b80b1688aa3c3a55aa11f83c10" />
+  <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" revision="efed05d66caec0c7e9d1ef7efb79d29b04987381" />
+  <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" revision="bcc073dd103ec1b899d793c454ea1486167941ca" />
+  <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" revision="ff1cf8edc7d5b8769c90db12cd233719f084a3e4" />
+  <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" revision="56617759ab423cc57021869a0d2f4b7346b7b1ae" />
+  <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" revision="60c5feb63a02a58e5ade6d5d21bb1685350253b5" />
+  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" revision="44d8026a8622f56c1abaecc05cf57d1b0f55799e" />
+  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" revision="c63de70e902a4e9a71ac65dff1f3702dbea487f4" />
+  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" revision="1d304d4bb6c4b0d53758622cd7ce2d71795e1dbe" />
+  <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" revision="b2048144ae439edbd5d3a2132ebe0ff216b71bf6" />
+  <project path="packages/apps/Glimpse" name="LineageOS/android_packages_apps_Glimpse" revision="e5d3f8fa1d451abcdf316e1924219eda3b8d5e01" />
+  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" revision="2112a66c053ce17769ceb69e4c21a7bc22e56778" />
+  <project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer" revision="6d78f750ddfe8b7b5821a9ce83860755491b8bd8" />
+  <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" revision="57dea8540aa9fe28ddec77849bb0c3234d474adf" />
+  <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" revision="5d074070eff473f2ed26ecc792b498048a3bff05" />
+  <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" revision="e2b975620ea327919aeff61804dab4bbd0dd12c9" />
+  <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" revision="7e214f7bd2a981f93313201ac9f4d118496e3198" />
+  <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" revision="935ba6902d81c8fd7a4bed5c90c064dc849f57a8" />
+  <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" revision="82d31b18dd2550e05f89248f128cb571eecc863a" />
+  <project path="packages/apps/SimpleSettingsConfig" name="LineageOS/android_packages_apps_SimpleSettingsConfig" revision="f5620aa22a44ac3a9794d0fda5c146efd7e0a11e" />
+  <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" revision="c9eada5848321bd62581bab41a20ba92dbb90430" />
+  <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" revision="6958fdb99eafb6ae54d2781d3e7fba31695cd9bc" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="2885b58fee88a25122cb144a9f79b4f38e892a9d" />
+  <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" revision="f29fef8c620c67e680877126ca19fe0bc1b7038d" />
+  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" revision="3b7da6c017de1f5dba290f7e4e41fe03dec8d859" />
+  <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin" revision="8aa05c09a464a97c2c14f690e457e02730aba96f" />
   <!--<project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />-->
 
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
   <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="generic_fs,qcom,qcom_sdm845" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
-  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_sdm845_data_ipacfg-mgr" groups="generic_fs,vendor,qcom,qcom_sdm845" >
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_sdm845_data_ipacfg-mgr" groups="generic_fs,vendor,qcom,qcom_sdm845" revision="418a28e3c77ded69dd8cdf406347f87d88fe7299" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
   </project>
-  <project path="hardware/qcom/sdm845/display" name="LineageOS/android_hardware_qcom_sdm845_display" groups="generic_fs,qcom,qcom_sdm845" />
-  <project path="hardware/qcom/sdm845/gps" name="LineageOS/android_hardware_qcom_sdm845_gps" groups="generic_fs,qcom,qcom_sdm845" />
-  <project path="hardware/qcom/sdm845/media" name="LineageOS/android_hardware_qcom_sdm845_media" groups="generic_fs,qcom,qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/display" name="LineageOS/android_hardware_qcom_sdm845_display" groups="generic_fs,qcom,qcom_sdm845" revision="e048fed32b7331376399b4241971e3f7899c1099" />
+  <project path="hardware/qcom/sdm845/gps" name="LineageOS/android_hardware_qcom_sdm845_gps" groups="generic_fs,qcom,qcom_sdm845" revision="6b5ed6d7f3562f85dce879ca7f6e60550602b9f1" />
+  <project path="hardware/qcom/sdm845/media" name="LineageOS/android_hardware_qcom_sdm845_media" groups="generic_fs,qcom,qcom_sdm845" revision="92d1e5daa17780566eae10ee2c9a9afed74efa2c" />
   <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" groups="generic_fs,qcom,qcom_sdm845" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
   <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" groups="generic_fs,qcom,qcom_sdm845" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
 
   <!-- Inline kernel build -->
-  <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" revision="lineage-20.0" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" revision="lineage-19.1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" revision="lineage-19.1" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" revision="lineage-19.1" />
+  <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" upstream="lineage-20.0" dest-branch="lineage-20.0" revision="54220fd601050b350b2af7adc913089ebf0e7aed"/>
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" upstream="lineage-19.1" dest-branch="lineage-19.1" revision="5e030eafe024784a73cdf47e6936ac0dbfc763dc" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" upstream="lineage-19.1" dest-branch="lineage-19.1" revision="111258a10e017f067b27e6cfcea7619d753f3309" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" upstream="lineage-19.1" dest-branch="lineage-19.1" revision="5c8aca3781d423cc450c1c05b6ff0813812d65bc" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.44" />
-  <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
+  <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" revision="3917c80e00bba573abd896e1da2365e676fd1e58" />
 
   <!-- CodeLinaro additions -->
-  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,qssi" />
-  <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-21.0-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr/legacy-um" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="lineage-21.0-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr/sm8450" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="lineage-21.0-caf-sm8450" />
-  <project path="device/qcom/sepolicy_vndr/sm8550" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="lineage-21.0-caf-sm8550" />
-  <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom" />
-  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom" />
-  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom" />
-  <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" groups="qcom,qssi" />
-  <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" />
-  <project path="hardware/qcom-caf/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="qcom,kailua-vendor" revision="lineage-21.0-caf" />
-  <project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="lineage-21.0-caf" />
+  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,qssi" revision="69da3f7a541c642e1e00953fa8066b8bfda52a15" />
+  <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660" upstream="lineage-21.0-legacy-um" dest-branch="lineage-21.0-legacy-um" revision="18b608b651ea869970cff8b8fc990f67c3d1d802" />
+  <project path="device/qcom/sepolicy_vndr/legacy-um" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" upstream="lineage-21.0-legacy-um" dest-branch="lineage-21.0-legacy-um" revision="a75bf824459c4a67e119ce0524e019e8a545f09a" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" upstream="lineage-21.0-caf-sm8450" dest-branch="lineage-21.0-caf-sm8450" revision="b6998a9ccb7ec8889b5ec4110c2ccf378b86111b" />
+  <project path="device/qcom/sepolicy_vndr/sm8550" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" upstream="lineage-21.0-caf-sm8550" dest-branch="lineage-21.0-caf-sm8550" revision="a614276ec3411899a49f750025c4f0b2a28de6c7" />
+  <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom" revision="846dbb2d61e119b9fd8faa0dfafe5a4f33bbd785" />
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom" revision="6e176b725fbae9db85a4ef5d04598264c637d47e" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom" revision="fa22f5cec501b961afbfa0a15a64d52fa2d57e8c" />
+  <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" groups="qcom,qssi" revision="ce589dc08e4215b063bfac73eb7b9b52cf46d944" />
+  <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" revision="4ca1c6405ca44253ba029946520b81158a68594b" />
+  <project path="hardware/qcom-caf/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="qcom,kailua-vendor" upstream="lineage-21.0-caf" dest-branch="lineage-21.0-caf" revision="581fb573e1e26168f7fd56f5ad84ce75d92fe623" />
+  <project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,legacy-qcom" upstream="lineage-21.0-caf" dest-branch="lineage-21.0-caf" revision="b7218e4c89817079546f035f3cfe5f99b4730d43" />
   <!--<project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom" >-->
     <!-- add guard for AOSP hardware/qcom dir 
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />-->
@@ -121,66 +121,66 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
   </project>-->
-  <project path="hardware/qcom-caf/msm8953/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msm8953" revision="lineage-21.0-caf-msm8953" />
-  <project path="hardware/qcom-caf/msm8953/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-msm8953" />
-  <project path="hardware/qcom-caf/msm8953/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,msm8953" revision="lineage-21.0-caf-msm8953" />
-  <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-21.0-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-21.0-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-21.0-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-21.0-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-21.0-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-21.0-caf-msm8998" />
-  <project path="hardware/qcom-caf/sdm660/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,sdm660" revision="lineage-21.0-caf-sdm660" />
-  <project path="hardware/qcom-caf/sdm660/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-sdm660" />
-  <project path="hardware/qcom-caf/sdm660/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,sdm660" revision="lineage-21.0-caf-sdm660" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,sdm845" revision="lineage-21.0-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,sdm845" revision="lineage-21.0-caf-sdm845" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msmnile" revision="lineage-21.0-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,msmnile" revision="lineage-21.0-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,kona" revision="lineage-21.0-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,kona" revision="lineage-21.0-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,lahaina" revision="lineage-21.0-caf-sm8350" />
-  <project path="hardware/qcom-caf/sm8350/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-sm8350" />
-  <project path="hardware/qcom-caf/sm8350/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,lahaina" revision="lineage-21.0-caf-sm8350" />
-  <project path="hardware/qcom-caf/sm8450/audio/agm" name="LineageOS/android_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" revision="lineage-21.0-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" revision="lineage-21.0-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="LineageOS/android_hardware_qcom_audio-ar" groups="qcom,waipio-vendor" revision="lineage-21.0-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" revision="lineage-21.0-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,waipio-vendor" revision="lineage-21.0-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8550/audio/agm" name="LineageOS/android_vendor_qcom_opensource_agm" groups="qcom,kailua-audio" revision="lineage-21.0-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" groups="qcom,kailua-audio" revision="lineage-21.0-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="LineageOS/android_hardware_qcom_audio-ar" groups="qcom,kailua-audio" revision="lineage-21.0-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,kailua-vendor" revision="lineage-21.0-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/dataipa" name="LineageOS/android_vendor_qcom_opensource_dataipa" groups="qcom,kailua-vendor" revision="lineage-21.0-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,kailua-vendor" revision="lineage-21.0-caf-sm8550" />
-  <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,kailua-vendor" />
-  <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,legacy-qcom" />
+  <project path="hardware/qcom-caf/msm8953/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msm8953" revision="d877068faa2cf88c02bc9516d7c39c59576b58b1" upstream="lineage-21.0-caf-msm8953" dest-branch="lineage-21.0-caf-msm8953" />
+  <project path="hardware/qcom-caf/msm8953/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="d0107598e13d1b7df25e97214c195a501b3ec348" upstream="lineage-21.0-caf-msm8953" dest-branch="lineage-21.0-caf-msm8953" />
+  <project path="hardware/qcom-caf/msm8953/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,msm8953" revision="90a808309f461f139161f504e44e341f4f6f2fb6" upstream="lineage-21.0-caf-msm8953" dest-branch="lineage-21.0-caf-msm8953" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="b5803a17c393e1f21c158a8979005b7f6cc49f20" upstream="lineage-21.0-caf-msm8996" dest-branch="lineage-21.0-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="c188c9031a944c7c9b4ee0d6656cc8df9d2a56f1" upstream="lineage-21.0-caf-msm8996" dest-branch="lineage-21.0-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="201a5e8f4f170830925ac9417a7969783c36c46d" upstream="lineage-21.0-caf-msm8996" dest-branch="lineage-21.0-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="81c947fcf4e6edc63f3e23a9ed5c654854380fe1" upstream="lineage-21.0-caf-msm8998" dest-branch="lineage-21.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="d60aec40a4aaa4a6d5367c22750341bffa882bcf" upstream="lineage-21.0-caf-msm8998" dest-branch="lineage-21.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="4f25bfc904a3e0f8b45094f9a248d3923a4fd382" upstream="lineage-21.0-caf-msm8998" dest-branch="lineage-21.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/sdm660/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,sdm660" revision="f945b8476585f5529be59f84765b55cc7dc4889c" upstream="lineage-21.0-caf-sdm660" dest-branch="lineage-21.0-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="ce2d587e4d4028be1051f1d7a03439d23e4ffdd2" upstream="lineage-21.0-caf-sdm660" dest-branch="lineage-21.0-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,sdm660" revision="eeed3aceb03c7d9a83e426ca0de0ec8fc4d73572" upstream="lineage-21.0-caf-sdm660" dest-branch="lineage-21.0-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,sdm845" revision="6584f9dca1c6a88a1a3667bee6af38fbe5b65f84" upstream="lineage-21.0-caf-sdm845" dest-branch="lineage-21.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="045299c580cdf35b3a7e26608c5878ec7e07967e" upstream="lineage-21.0-caf-sdm845" dest-branch="lineage-21.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,sdm845" revision="c46985599e48b232f21d90ad0a440b3801906707" upstream="lineage-21.0-caf-sdm845" dest-branch="lineage-21.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msmnile" revision="df0a3782935c725e1d31218a34468308de3e2696" upstream="lineage-21.0-caf-sm8150" dest-branch="lineage-21.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="b155d3d6df926804c715b45e4b97344221d9fbc7" upstream="lineage-21.0-caf-sm8150" dest-branch="lineage-21.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,msmnile" revision="3355253973c017311a01ab132ac978e845d77b4a" upstream="lineage-21.0-caf-sm8150" dest-branch="lineage-21.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,kona" revision="95cfbfc4d49e1927b7b044a7cbb4fc38f399d607" upstream="lineage-21.0-caf-sm8250" dest-branch="lineage-21.0-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="b07092e848eea9fffce97735f9c4db015d8f9a6d" upstream="lineage-21.0-caf-sm8250" dest-branch="lineage-21.0-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,kona" revision="e03abf708d67eb703ab3aa7ee8fad897ced395d5" upstream="lineage-21.0-caf-sm8250" dest-branch="lineage-21.0-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,lahaina" revision="32b7a1b2886db0614b90820694e4d9fdd58bfc7e" upstream="lineage-21.0-caf-sm8350" dest-branch="lineage-21.0-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="104cdb3b47fdca0e6eef18733d4558d8a3a82647" upstream="lineage-21.0-caf-sm8350" dest-branch="lineage-21.0-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,lahaina" revision="947a0e481c353c878df46fc547249811751f3d28" upstream="lineage-21.0-caf-sm8350" dest-branch="lineage-21.0-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8450/audio/agm" name="LineageOS/android_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" revision="4f5a12d94e34a4517bae914904a41c9ad85cea21" upstream="lineage-21.0-caf-sm8450" dest-branch="lineage-21.0-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" revision="553bb7e1d64ca90c88f0379f6cb9b940df14b1dc" upstream="lineage-21.0-caf-sm8450" dest-branch="lineage-21.0-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="LineageOS/android_hardware_qcom_audio-ar" groups="qcom,waipio-vendor" rrevision="af1d4afead7e92a62a20471beffdebcd56616cf9" upstream="lineage-21.0-caf-sm8450" dest-branch="lineage-21.0-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" revision="55912090d35be6469ec3d640371df31ca26e3a1b" upstream="lineage-21.0-caf-sm8450" dest-branch="lineage-21.0-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="734b422bccc9129f2f93e6364137b5c068d7bdaa" upstream="lineage-21.0-caf-sm8450" dest-branch="lineage-21.0-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,waipio-vendor" revision="fdd06e10393d5c831bcb69b1a59c4509d5923f62" upstream="lineage-21.0-caf-sm8450" dest-branch="lineage-21.0-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8550/audio/agm" name="LineageOS/android_vendor_qcom_opensource_agm" groups="qcom,kailua-audio" revision="48a43e33f2e70cd09da6a80ef645d6aab648744a" upstream="lineage-21.0-caf-sm8550" dest-branch="lineage-21.0-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" groups="qcom,kailua-audio" revision="d173d5c67ef3a0167bed89aa27dd541fd07c8e98" upstream="lineage-21.0-caf-sm8550" dest-branch="lineage-21.0-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="LineageOS/android_hardware_qcom_audio-ar" groups="qcom,kailua-audio" revision="0c543ff8cc1f3f32d3cfb99c433e06962deb076c" upstream="lineage-21.0-caf-sm8550" dest-branch="lineage-21.0-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,kailua-vendor" revision="bab08c320d700e6baf6fbc1e6757a3f803961aaa" upstream="lineage-21.0-caf-sm8550" dest-branch="lineage-21.0-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/dataipa" name="LineageOS/android_vendor_qcom_opensource_dataipa" groups="qcom,kailua-vendor" revision="b777883faaf45ad52e5f820791eafc94223e0d45" upstream="lineage-21.0-caf-sm8550" dest-branch="lineage-21.0-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="3c2298b15f3b5dd78aee41978a7d0f4a6bff65ee" upstream="lineage-21.0-caf-sm8550" dest-branch="lineage-21.0-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,kailua-vendor" revision="d6537513716b8bf2b36caa14923a8ac9409c83ee" upstream="lineage-21.0-caf-sm8550" dest-branch="lineage-21.0-caf-sm8550" />
+  <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,kailua-vendor" revision="f36fc9ee8b1308a0939ea260523f6167078395a1"/>
+  <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,legacy-qcom" revision="d7c051add89a45090250c8f6c16c5c86f82be6b8" />
   <!--<project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,waipio-vendor" revision="lineage-21.0-caf" />-->
-  <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" revision="lineage-21" />
-  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" />
-  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,kailua-audio" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/commonsys/fm" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/commonsys/wfd" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,kailua-video" />
-  <project path="vendor/qcom/opensource/core-utils-sys" name="LineageOS/android_vendor_qcom_opensource_core-utils-sys" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/core-utils-vendor" name="LineageOS/android_vendor_qcom_opensource_core-utils-vendor" groups="qcom,kailua-vendor" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="lineage-21.0-legacy-um" />
-  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" groups="qcom,kailua-vendor" />
-  <project path="vendor/qcom/opensource/display" name="LineageOS/android_vendor_qcom_opensource_display" groups="qcom" />
-  <project path="vendor/qcom/opensource/healthd-ext" name="LineageOS/android_vendor_qcom_opensource_healthd-ext" groups="qcom,kailua-vendor" />
-  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom" />
+  <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" evision="11c1535c71b97f0ab833e215a8121ed107235010" upstream="lineage-21" dest-branch="lineage-21" />
+  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" groups="qcom,qssi" revision="aca2cbec6c04d0c3972059f8505b21f2f53d738a" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" revision="68d8705deab99367a1c4022470feb7a4bf8cc785" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,kailua-audio" revision="420362bced12aa266fbf73be76ee440b8341829f" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" revision="f75571a9d6947c4dc70f3e5138a0cd3df4302c71" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" revision="11253d91e0b79c976479215ce78a942e4718817d" />
+  <project path="vendor/qcom/opensource/commonsys/fm" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" revision="95e0d4136e54f9cbef154a2af92f3a4a4f4bb760" />
+  <project path="vendor/qcom/opensource/commonsys/wfd" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,kailua-video" revision="7b125f664789e0ce2ee39e1beab8de5498af502a" />
+  <project path="vendor/qcom/opensource/core-utils-sys" name="LineageOS/android_vendor_qcom_opensource_core-utils-sys" groups="qcom,qssi" revision="5208eb34ee39a7514d10b7b109d1824b23564e85" />
+  <project path="vendor/qcom/opensource/core-utils-vendor" name="LineageOS/android_vendor_qcom_opensource_core-utils-vendor" groups="qcom,kailua-vendor" revision="cbc8262034d43671f1e698efc640b01c525731e3" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="1d2c219acbe1c6b07cf1921415fecbea6761077c" upstream="lineage-21.0-legacy-um" dest-branch="lineage-21.0-legacy-um" />
+  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" groups="qcom,kailua-vendor" revision="dfc2ec0112353afdb6db99db8bae7328b42e44f6" />
+  <project path="vendor/qcom/opensource/display" name="LineageOS/android_vendor_qcom_opensource_display" groups="qcom" revision="74a5c56b6229dbe518b43cf781e4c52e1a5ecb71" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="LineageOS/android_vendor_qcom_opensource_healthd-ext" groups="qcom,kailua-vendor" revision="3f8c19e191beb76d538ad1cbfb32768ef95c5980" />
+  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" revision="bda054ca47b675994265510824c505e8a1a0ab9d" />
+  <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom" revision="e33227ed63c6b8e7df0b638f556bf14fa99acd83" />
   <!--<project path="vendor/qcom/opensource/power" name="LineageOS/android_vendor_qcom_opensource_power" groups="qcom,waipio-vendor" />-->
-  <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="qcom,kailua-vendor" />
-  <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="qcom,kailua-vendor" />
-  <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,kailua-vendor" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="qcom,kailua-vendor" revision="0815f34094ebc952c8e1dd3619e384c7f9d1195b" />
+  <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="qcom,kailua-vendor" revision="c1154bf52448c5fbb53e21009a0a4b63d0a5cb09" />
+  <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,kailua-vendor" revision="b7bcccdda4941f3b269b368f8ff0fdd02cf181a1" />
 
   <!-- NXP additions -->
   <!--
@@ -190,14 +190,14 @@
   -->
 
   <!-- Infrastructure -->
-  <project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="main" />
-  <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="main" />
-  <project path="lineage/hudson" name="LineageOS/hudson" groups="infra" revision="main" />
-  <project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="main" />
-  <project path="lineage/website" name="LineageOS/www" groups="infra" revision="main" />
-  <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="main" />
+  <project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="6a8d73f3fa0abfd38d35366682aa26f1fcc2128d" upstream="main" dest-branch="main" />
+  <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="9e2f0d776990d3ecce77ab3fd77b9d693dd98d9a" upstream="main" />
+  <project path="lineage/hudson" name="LineageOS/hudson" groups="infra" revision="d54da98151e6ffd51e21fbd7bf709f920c283979" upstream="main" dest-branch="main" />
+  <project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="bba5c9000a97fa3dbf6dc1a3d2787a2a0a6fb170" upstream="main" />
+  <project path="lineage/website" name="LineageOS/www" groups="infra" revision="6b249d8558c9387d791266607e89e83146abf6f7" upstream="main" dest-branch="main" />
+  <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="b5350e97cc7bde024089ba43614eae9db50f65a4" upstream="main" dest-branch="main" />
 
   <!-- Tools -->
-  <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="main" />
-  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" />
+  <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="b4f0e2854ae40961b1028744df3503ac39792cab" upstream="main" dest-branch="main" />
+  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="ec2a76ac313902a0912d84a5875612b33c204cdb" upstream="main" dest-branch="main" />
 </manifest>
