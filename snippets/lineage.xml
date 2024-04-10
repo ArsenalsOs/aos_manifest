@@ -55,7 +55,6 @@
   <project path="prebuilts/extract-tools" remote="lineage" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" revision="f29fef8c620c67e680877126ca19fe0bc1b7038d" />
   <project path="tools/extract-utils" remote="lineage" name="LineageOS/android_tools_extract-utils" revision="3b7da6c017de1f5dba290f7e4e41fe03dec8d859" />
   <project path="vendor/crowdin" remote="lineage" name="LineageOS/android_vendor_crowdin" revision="8aa05c09a464a97c2c14f690e457e02730aba96f" />
-  <project path="vendor/lineage" remote="lineage" name="LineageOS/android_vendor_lineage" revision="8e49671f1f5c63f1830d48791d8af2e4af7796a6" />
 
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
@@ -82,7 +81,6 @@
   <project path="device/qcom/sepolicy" remote="lineage" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,qssi" revision="69da3f7a541c642e1e00953fa8066b8bfda52a15" />
   <project path="device/qcom/sepolicy-legacy-um" remote="lineage" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660" upstream="lineage-21.0-legacy-um" dest-branch="lineage-21.0-legacy-um" revision="18b608b651ea869970cff8b8fc990f67c3d1d802" />
   <project path="device/qcom/sepolicy_vndr/legacy-um" remote="lineage" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" upstream="lineage-21.0-legacy-um" dest-branch="lineage-21.0-legacy-um" revision="a75bf824459c4a67e119ce0524e019e8a545f09a" />
-  <project path="device/qcom/sepolicy_vndr/sm8450" remote="lineage" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" upstream="lineage-21.0-caf-sm8450" dest-branch="lineage-21.0-caf-sm8450" revision="b6998a9ccb7ec8889b5ec4110c2ccf378b86111b" />
   <project path="device/qcom/sepolicy_vndr/sm8550" remote="lineage" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" upstream="lineage-21.0-caf-sm8550" dest-branch="lineage-21.0-caf-sm8550" revision="a614276ec3411899a49f750025c4f0b2a28de6c7" />
   <project path="external/ant-wireless/ant_client" remote="lineage" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom" revision="846dbb2d61e119b9fd8faa0dfafe5a4f33bbd785" />
   <project path="external/ant-wireless/ant_native" remote="lineage" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom" revision="6e176b725fbae9db85a4ef5d04598264c637d47e" />
@@ -148,7 +146,6 @@
   <project path="hardware/qcom-caf/sm8450/audio/pal" remote="lineage" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" revision="553bb7e1d64ca90c88f0379f6cb9b940df14b1dc" upstream="lineage-21.0-caf-sm8450" dest-branch="lineage-21.0-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/audio/primary-hal" remote="lineage" name="LineageOS/android_hardware_qcom_audio-ar" groups="qcom,waipio-vendor" revision="af1d4afead7e92a62a20471beffdebcd56616cf9" upstream="lineage-21.0-caf-sm8450" dest-branch="lineage-21.0-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" remote="lineage" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" revision="55912090d35be6469ec3d640371df31ca26e3a1b" upstream="lineage-21.0-caf-sm8450" dest-branch="lineage-21.0-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/display" remote="lineage" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="734b422bccc9129f2f93e6364137b5c068d7bdaa" upstream="lineage-21.0-caf-sm8450" dest-branch="lineage-21.0-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/media" remote="lineage" name="LineageOS/android_hardware_qcom_media" groups="qcom,waipio-vendor" revision="fdd06e10393d5c831bcb69b1a59c4509d5923f62" upstream="lineage-21.0-caf-sm8450" dest-branch="lineage-21.0-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8550/audio/agm" remote="lineage" name="LineageOS/android_vendor_qcom_opensource_agm" groups="qcom,kailua-audio" revision="48a43e33f2e70cd09da6a80ef645d6aab648744a" upstream="lineage-21.0-caf-sm8550" dest-branch="lineage-21.0-caf-sm8550" />
   <project path="hardware/qcom-caf/sm8550/audio/pal" remote="lineage" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" groups="qcom,kailua-audio" revision="d173d5c67ef3a0167bed89aa27dd541fd07c8e98" upstream="lineage-21.0-caf-sm8550" dest-branch="lineage-21.0-caf-sm8550" />

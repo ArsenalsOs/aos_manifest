@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="kernel/arsenals/kernelsu" name="ArsenalsOs/aos_kernel_arsenals_kernelsu" revision="refs/heads/aos" />
+  <project path="hardware/qcom-caf/sm8450/display" name="ArsenalsOs/aos_hardware_qcom_display" groups="qcom" revision="refs/heads/aos-caf-sm8450" />
+  <project path="vendor/lineage" name="ArsenalsOs/aos_vendor_lineage" revision="refs/heads/aos" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="ArsenalsOs/aos_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="refs/heads/aos-caf-sm8450" />
 </manifest>
