@@ -49,7 +49,7 @@
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="pdk" remote="aosp" />
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" remote="aosp" />
-  <project path="build/soong" name="LineageOS-UL/android_build_soong" groups="pdk,tradefed" remote="losul" revision="941080b0874d1ec4715c406ae8514e4585449526">
+  <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" remote="lineage" revision="4242de1fd8009076c3b63ac713f10e63890af5ab">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -218,7 +218,7 @@
   <project path="external/google-smali" name="platform/external/google-smali" groups="pdk" remote="aosp" />
   <project path="external/google-styleguide" name="platform/external/google-styleguide" groups="pdk" remote="aosp" />
   <project path="external/googletest" name="platform/external/googletest" groups="pdk" remote="aosp" />
-  <project path="external/gptfdisk" remote="lineage" name="LineageOS/android_external_gptfdisk" groups="pdk" revision="4ca1c6405ca44253ba029946520b81158a68594b" />
+  <project path="external/gptfdisk" remote="lineage" name="LineageOS/android_external_gptfdisk" groups="pdk" revision="6727e78ba400a8db61266f5ae769827e3bbf509b" />
   <project path="external/grpc-grpc" name="platform/external/grpc-grpc" groups="pdk,tradefed" remote="aosp" />
   <project path="external/grpc-grpc-java" name="platform/external/grpc-grpc-java" groups="pdk,tradefed" remote="aosp" />
   <project path="external/gson" name="platform/external/gson" groups="pdk,tradefed" remote="aosp" />
@@ -855,7 +855,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" remote="aosp" />
   <project path="hardware/google/pixel" remote="lineage" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel" revision="5723b06faf36c6a2c7c27a35ac43e30e51d8eb23" />
   <project path="hardware/google/pixel-sepolicy" remote="lineage" name="LineageOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" revision="f8febaeb62aa0f569a0245c92c79770c1e41cd4d" />
-  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" revision="f803819ca1fb559858058c74f3d16746fb805261" />
+  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" revision="64f26d21d13de3cdccf67c5ace6d2e64cf228219" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" remote="aosp" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" remote="aosp" />
   <project path="hardware/libhardware" remote="lineage" name="LineageOS/android_hardware_libhardware" groups="pdk" revision="336fad19bce2e05116387364746aa90187953a8c" />
@@ -968,7 +968,7 @@
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SecureElement" name="platform/packages/apps/SecureElement" groups="apps_se,pdk-fs" remote="aosp" />
   <project path="packages/apps/Settings" remote="lineage" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" revision="bc34a195218c714288288c1c57003f150ca19f8f" />
-  <project path="packages/apps/SettingsIntelligence" remote="lineage" name="LineageOS/android_packages_apps_SettingsIntelligence" groups="pdk-fs" revision="f5620aa22a44ac3a9794d0fda5c146efd7e0a11e" />
+  <project path="packages/apps/SettingsIntelligence" remote="lineage" name="LineageOS/android_packages_apps_SettingsIntelligence" groups="pdk-fs" revision="2d1f70c640b0abfe652ff4763d80a958b2baca49" />
   <project path="packages/apps/Stk" remote="lineage" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" revision="3433b13505c47071b759d684f718d7806649302a" />
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SystemUIGo" name="platform/packages/apps/SystemUIGo" groups="pdk-fs" remote="aosp" />
