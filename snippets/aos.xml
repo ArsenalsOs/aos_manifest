@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="kernel/arsenals/kernelsu" name="ArsenalsOs/aos_kernel_arsenals_kernelsu" revision="refs/heads/aos" />
+</manifest>
