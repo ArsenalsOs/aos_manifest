@@ -4,4 +4,16 @@
   <project path="hardware/qcom-caf/sm8450/display" name="ArsenalsOs/aos_hardware_qcom_display" groups="qcom" revision="refs/heads/aos-caf-sm8450" />
   <project path="vendor/lineage" name="ArsenalsOs/aos_vendor_lineage" revision="refs/heads/aos" />
   <project path="device/qcom/sepolicy_vndr/sm8450" name="ArsenalsOs/aos_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="refs/heads/aos-caf-sm8450" />
+  <project path="bionic" name="ArsenalsOs/aos_bionic" groups="pdk" revision="refs/heads/aos" />
+  <project path="build/make" name="ArsenalsOs/aos_build_make" groups="pdk" revision="refs/heads/aos" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="frameworks/base" name="ArsenalsOs/aos_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="refs/heads/aos" />
+  <project path="frameworks/native" name="ArsenalsOs/aos_frameworks_native" groups="pdk" revision="refs/heads/aos" />
+  <project path="system/core" name="ArsenalsOs/aos_system_core" groups="pdk" revision="refs/heads/aos" />
 </manifest>

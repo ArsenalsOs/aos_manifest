@@ -33,14 +33,6 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build/make" remote="lineage" name="LineageOS/android_build" groups="pdk" revision="6d7f37d31f8e402db2e6c9dca5c6d7b1a380e4c0" >
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
   <project path="build/orchestrator" name="platform/build/orchestrator" groups="pdk" remote="aosp" />
   <project path="build/bazel" name="platform/build/bazel" groups="pdk" remote="aosp" >
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
@@ -54,7 +46,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
-  <project path="bionic" remote="lineage" name="LineageOS/android_bionic" groups="pdk" revision="478cd7fdf9a89e2a15e835d09559595f4612678b" />
   <project path="bootable/recovery" remote="lineage" name="LineageOS/android_bootable_recovery" groups="pdk" revision="50ee1a368e15e25d3b1e4e1d166c2b978d8674b8" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -802,7 +793,6 @@
   <project path="external/zucchini" name="platform/external/zucchini" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
   <project path="frameworks/av" remote="lineage" name="LineageOS/android_frameworks_av" groups="pdk" revision="0900dd0c2384e151588c4bea492f13ee516aebd7" />
-  <project path="frameworks/base" remote="lineage" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="1aa3f624c40852b36a14c479daae1fc879f3d3bf" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -818,7 +808,6 @@
   <project path="frameworks/libs/systemui" remote="lineage" name="LineageOS/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" revision="31eb91c8f4542f6bf047d6510d3db51b311f1a6e" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/native" remote="lineage" name="LineageOS/android_frameworks_native" groups="pdk" revision="e412ad3b29ed8ff9e9a70a3bb31af33ddd6d4803" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/calendar" remote="lineage" name="LineageOS/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" revision="7f9a3bea05566489b2fb2b7029a43ae694f60977" />
   <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" groups="pdk-fs" remote="aosp" />
@@ -1121,7 +1110,6 @@
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp" />
   <project path="system/chre" name="platform/system/chre" groups="pdk" remote="aosp" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" remote="aosp" />
-  <project path="system/core" remote="lineage" name="LineageOS/android_system_core" groups="pdk" revision="bb9009581292331e30e701151fb87ee79d2b6c7d" />
   <project path="system/dmesgd" name="platform/system/dmesgd" groups="pdk" remote="aosp" />
   <project path="system/extras" remote="lineage" name="LineageOS/android_system_extras" groups="pdk" revision="d285995e6024ab9972ba14ee0f1e0b244a4e2c4f" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
