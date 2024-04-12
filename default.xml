@@ -876,7 +876,6 @@
   <project path="hardware/qcom/sm8150/media" remote="lineage" name="LineageOS/android_hardware_qcom_sm8150_media" groups="qcom,qcom_sm8150" revision="80ca8bcdc83ddef54eef65d867e4524540c5c223" />
   <project path="hardware/qcom/sm8150/thermal" name="platform/hardware/qcom/sm8150/thermal" groups="qcom,qcom_sm8150" remote="aosp" />
   <project path="hardware/qcom/sm8150/vr" name="platform/hardware/qcom/sm8150/vr" groups="qcom,qcom_sm8150" remote="aosp" />
-  <project path="hardware/qcom/wlan" remote="lineage" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" revision="cb36e2fc2fd0b2f39abbe8129aec36b461e93bed" />
   <project path="hardware/ril" remote="lineage" name="LineageOS/android_hardware_ril" groups="pdk" revision="e1d539d38fecd4f1c0baf7478726352b1cea634f" />
   <project path="hardware/samsung/nfc" name="platform/hardware/samsung/nfc" groups="pdk" remote="aosp" />
   <project path="hardware/st/nfc" name="platform/hardware/st/nfc" groups="pdk" remote="aosp" />

@@ -156,7 +156,6 @@
   <project path="hardware/qcom-caf/sm8550/media" remote="lineage" name="LineageOS/android_hardware_qcom_media" groups="qcom,kailua-vendor" revision="d6537513716b8bf2b36caa14923a8ac9409c83ee" upstream="lineage-21.0-caf-sm8550" dest-branch="lineage-21.0-caf-sm8550" />
   <project path="hardware/qcom-caf/thermal" remote="lineage" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,kailua-vendor" revision="f36fc9ee8b1308a0939ea260523f6167078395a1"/>
   <project path="hardware/qcom-caf/vr" remote="lineage" name="LineageOS/android_hardware_qcom_vr" groups="qcom,legacy-qcom" revision="d7c051add89a45090250c8f6c16c5c86f82be6b8" />
-  <project path="hardware/qcom-caf/wlan" remote="lineage" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,waipio-vendor" upstream="lineage-21.0-caf" dest-branch="lineage-21.0-caf" revision="cb36e2fc2fd0b2f39abbe8129aec36b461e93bed" />
   <!--<project path="hardware/sony/timekeep" remote="lineage" name="LineageOS/android_hardware_sony_timekeep" evision="11c1535c71b97f0ab833e215a8121ed107235010" upstream="lineage-21" dest-branch="lineage-21" />-->
   <project path="vendor/codeaurora/telephony" remote="lineage" name="LineageOS/android_vendor_codeaurora_telephony" groups="qcom,qssi" revision="aca2cbec6c04d0c3972059f8505b21f2f53d738a" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" remote="lineage" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" revision="68d8705deab99367a1c4022470feb7a4bf8cc785" />
