@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/qcom/sepolicy-legacy" name="LineageOS-UL/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="github" revision="3fc6662b09bae2307a64cce5dca8e28ef43edc70" upstream="lineage-21.0-legacy" dest-branch="lineage-21.0-legacy" />
+  <project path="external/connectivity" name="LineageOS-UL/android_external_connectivity" remote="github" revision="0bcb1672a85eaa9e0e198a1aa7b5f6fe37884a7a" />
+  <project path="hardware/broadcom/nfc" name="LineageOS-UL/android_hardware_broadcom_nfc" remote="github" revision="5e07a5b4b6dd32435455b550dc2d4c96d1d71ee1" />
+  <project path="system/tools/dtbtool" name="LineageOS-UL/android_system_tools_dtbtool" remote="github" revision="ffd4bcb0e07a135e9bb65b07e33f6c8f5f1c47b9" />
+  <project path="hardware/qcom-caf/common" name="LineageOS-UL/android_hardware_qcom-caf_common" groups="qcom" remote="github" revision="f382bb51971a56fad66fb854f0d888d2d9eda4f2" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
+    <!-- add guards for Pixel kernel modules -->
+    <linkfile src="os_pickup.bp" dest="kernel/google/gs201/private/google-modules/Android.bp" />
+  </project>
+  <project path="hardware/qcom-caf/msm8916/audio" name="LineageOS-UL/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="4eeadcd50dbccabe53da1114858ea373203bac44" upstream="lineage-21.0-caf-msm8916" dest-branch="lineage-21.0-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/display" name="LineageOS-UL/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="6d408c97b324217f465fbb4d06905d2f8d6f5585" upstream="lineage-21.0-caf-msm8916" dest-branch="lineage-21.0-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/media" name="LineageOS-UL/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="ee0cb10a3b8388bd24f78530b64204aeb185affc" upstream="lineage-21.0-caf-msm8916" dest-branch="lineage-21.0-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8952/audio" name="LineageOS-UL/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="5e451c919110e8424beee5fbe2c9576afc7dc485" upstream="lineage-21.0-caf-msm8952" dest-branch="lineage-21.0-caf-msm8952" />
+  <project path="hardware/qcom-caf/msm8952/display" name="LineageOS-UL/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="45cf45c7018139a2fed0ba3d004eb6fdd851c084" upstream="lineage-21.0-caf-msm8952" dest-branch="lineage-21.0-caf-msm8952" />
+  <project path="hardware/qcom-caf/msm8952/media" name="LineageOS-UL/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="4661ee4b1dea0852f4f03bfebaa8d4376e2dfc90" upstream="lineage-21.0-caf-msm8952" dest-branch="lineage-21.0-caf-msm8952" />
+  <project path="hardware/qcom-caf/msm8974/audio" name="LineageOS-UL/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="46e4d3c9613bd54f564948f273949587ca7e8bb2" upstream="lineage-21.0-caf-msm8974" dest-branch="lineage-21.0-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/display" name="LineageOS-UL/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="374e1517aa2f5e8a241b0df26bf8f849f1f1ce14" upstream="lineage-21.0-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/media" name="LineageOS-UL/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="135fc12a60f1fb0c29b47ed56b40a8b42f9bbc10" upstream="lineage-21.0-caf-msm8974" dest-branch="lineage-21.0-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8960/audio" name="LineageOS-UL/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="f59a991b32eb9fcbaa631fba23a1bc38ff7baa9b" upstream="lineage-21.0-caf-msm8960" dest-branch="lineage-21.0-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8960/display" name="LineageOS-UL/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="200c6dd6fce1e3450cee455abaded9dd313836d4" upstream="lineage-21.0-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8960/media" name="LineageOS-UL/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="6d75cc8454bc255c191b5faa6f9615612069417b" upstream="lineage-21.0-caf-msm8960" dest-branch="lineage-21.0-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8994/audio" name="LineageOS-UL/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="11aeafd98f3b6c2f7706fc0bb324b55b59e4c025" upstream="lineage-21.0-caf-msm8994" dest-branch="lineage-21.0-caf-msm8994" />
+  <project path="hardware/qcom-caf/msm8994/display" name="LineageOS-UL/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="9bdd9cf22277ede0e704c8139620147c7b305b6a" upstream="lineage-21.0-caf-msm8994" />
+  <project path="hardware/qcom-caf/msm8994/media" name="LineageOS-UL/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="f21b36368dededbc42ebabb42a450564e029096b" upstream="lineage-21.0-caf-msm8994" dest-branch="lineage-21.0-caf-msm8994" />
+  <project path="hardware/qcom-caf/wlan" name="LineageOS-UL/android_hardware_qcom_wlan" groups="qcom,waipio-vendor" remote="github" revision="b21e5f987ced9bdaf56c78f54130853fadec0a10" upstream="lineage-21.0-caf" dest-branch="lineage-21.0-caf" />
+  <project path="hardware/sony/timekeep" remote="github" name="LineageOS/android_hardware_sony_timekeep" revision="11c1535c71b97f0ab833e215a8121ed107235010" upstream="lineage-21" dest-branch="lineage-21" />
+
+  <project path="art" name="ArsenalsOs/aos_art" revision="refs/heads/aosul" />
+  <project path="device/lineage/sepolicy" name="LineageOS-UL/android_device_lineage_sepolicy" remote="github" revision="6e40bcbb7097d1b44a497a8db93449ecac626b55" />
+  <project path="external/jemalloc_new" name="ArsenalsOs/aos_external_jemalloc_new" revision="refs/heads/aosul" />
+  <project path="external/perfetto" name="ArsenalsOs/aos_external_perfetto" revision="refs/heads/aosul" />
+  <project path="frameworks/av" name="LineageOS-UL/android_frameworks_av" remote="github" revision="02afcc459c4014a3d4ee3237ba95325a399e2d52" />
+  <project path="frameworks/ex" name="ArsenalsOs/aos_frameworks_ex" groups="pdk-cw-fs,pdk-fs" revision="refs/heads/aosul" />
+  <project path="frameworks/libs/net" name="LineageOS-UL/android_frameworks_libs_net" remote="github" revision="e55daaa7cd0c272f80c6c91535d01257ee77d85f" />
+  <project path="frameworks/opt/telephony" name="LineageOS-UL/android_frameworks_opt_telephony" remote="github" revision="6fe2b021233c7c3512531def9589dd6f02e6d12c" />
+  <project path="hardware/interfaces" name="ArsenalsOs/aos_hardware_interfaces" revision="refs/heads/aosul" />
+  <project path="hardware/lineage/interfaces" name="ArsenalsOs/aos_hardware_lineage_interfaces" revision="refs/heads/aosul" />
+  <project path="hardware/ril" name="LineageOS-UL/android_hardware_ril" remote="github" revision="28db5522c9783a682673e866db9261d6c35f252a" />
+  <project path="hardware/qcom/audio" name="LineageOS-UL/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="dade8f0cd7dd01e0a17a8c4382174edececb17cb" />
+  <project path="hardware/qcom/bt" name="LineageOS-UL/android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="github" revision="f155c6648a11d52b266bc70ad98c3f0f4c26c1db" />
+  <project path="hardware/qcom/display" name="ArsenalsOs/aos_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="refs/heads/aosul" />
+  <project path="hardware/qcom/gps" name="ArsenalsOs/aos_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" revision="refs/heads/aosul" />
+  <project path="hardware/qcom/media" name="LineageOS-UL/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="be72de4fa4be75a20794c4b0d5beab982eb95bb5" />
+  <project path="packages/apps/Nfc" name="ArsenalsOs/aos_packages_apps_Nfc" revision="refs/heads/aosul" />
+  <project path="packages/apps/Settings" name="ArsenalsOs/aos_packages_apps_Settings" groups="pdk-fs" revision="refs/heads/aosul" />
+  <project path="packages/modules/adb" name="ArsenalsOs/aos_packages_modules_adb" revision="refs/heads/aosul" />
+  <project path="packages/modules/Bluetooth" name="LineageOS-UL/android_packages_modules_Bluetooth" remote="github" revision="ffa6ad07b2dcaeecfd962620869a60518c914765" />
+  <project path="packages/modules/Connectivity" name="LineageOS-UL/android_packages_modules_Connectivity" remote="github" revision="2f03120ba25324b891eba8b582cd7e4f68e22085" />
+  <project path="packages/modules/DeviceLock" name="ArsenalsOs/aos_packages_modules_DeviceLock" groups="pdk-cw-fs,pdk-fs" revision="refs/heads/aosul" />
+  <project path="packages/modules/NetworkStack" name="LineageOS-UL/android_packages_modules_NetworkStack" remote="github" revision="6801f670d986d77f225e95b4181e290dee10c297" />
+  <project path="packages/modules/Wifi" name="LineageOS-UL/android_packages_modules_Wifi" remote="github" revision="f173d0b571312e76287b250f6cff272c8f553a9b" />
+  <project path="prebuilts/abi-dumps/ndk" name="LineageOS-UL/android_prebuilts_abi-dumps_ndk" groups="pdk-fs" clone-depth="1" remote="github" revision="b2256e1ad23827b9fdbda164f3085f40e3e33b0f" />
+  <project path="prebuilts/build-tools" name="LineageOS-UL/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="github" revision="6e72d6ff911bba1f67fb4c4d886141c1abd8c14b" />
+  <project path="prebuilts/sdk" name="LineageOS-UL/android_prebuilts_sdk" groups="pdk" clone-depth="1" remote="github" revision="7c9e73c38751ed7285eaaebdd7a3b1cd1bc74bad" />
+  <project path="system/bpf" name="ArsenalsOs/aos_system_bpf" revision="refs/heads/aosul" />
+  <project path="system/libhidl" name="ArsenalsOs/aos_system_libhidl" groups="pdk" revision="refs/heads/aosul" />
+  <project path="system/libhwbinder" name="ArsenalsOs/aos_system_libhwbinder" groups="pdk" revision="refs/heads/aosul" />
+  <project path="system/netd" name="ArsenalsOs/aos_system_netd" revision="refs/heads/aosul" />
+  <project path="system/sepolicy" name="ArsenalsOs/aos_system_sepolicy" revision="refs/heads/aosul" />
+  <project path="vendor/qcom/opensource/power" name="LineageOS-UL/android_vendor_qcom_opensource_power" groups="qcom,waipio-vendor" remote="github" revision="d3ee5248ff03a523f58d549f3626415abee4d3e3" />
+
+  <project path="build/soong" name="ArsenalsOs/aos_build_soong" groups="pdk,tradefed" revision="refs/heads/aosul">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+</manifest>
