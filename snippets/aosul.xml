@@ -61,7 +61,7 @@
   <project path="device/lineage/sepolicy" name="LineageOS-UL/android_device_lineage_sepolicy" remote="github" revision="6e40bcbb7097d1b44a497a8db93449ecac626b55" />
   <project path="external/jemalloc_new" name="ArsenalsOs/aos_external_jemalloc_new" revision="refs/heads/aosul" />
   <project path="external/perfetto" name="ArsenalsOs/aos_external_perfetto" revision="refs/heads/aosul" />
-  <project path="frameworks/av" name="LineageOS-UL/android_frameworks_av" remote="github" revision="02afcc459c4014a3d4ee3237ba95325a399e2d52" />
+  <project path="frameworks/av" name="ArsenalsOs/aos_frameworks_av" revision="refs/heads/aosul" />
   <project path="frameworks/ex" name="ArsenalsOs/aos_frameworks_ex" groups="pdk-cw-fs,pdk-fs" revision="refs/heads/aosul" />
   <project path="frameworks/libs/net" name="LineageOS-UL/android_frameworks_libs_net" remote="github" revision="e55daaa7cd0c272f80c6c91535d01257ee77d85f" />
   <project path="frameworks/opt/telephony" name="LineageOS-UL/android_frameworks_opt_telephony" remote="github" revision="6fe2b021233c7c3512531def9589dd6f02e6d12c" />
@@ -72,7 +72,7 @@
   <project path="hardware/qcom/bt" name="LineageOS-UL/android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="github" revision="f155c6648a11d52b266bc70ad98c3f0f4c26c1db" />
   <project path="hardware/qcom/display" name="ArsenalsOs/aos_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="refs/heads/aosul" />
   <project path="hardware/qcom/gps" name="ArsenalsOs/aos_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" revision="refs/heads/aosul" />
-  <project path="hardware/qcom/media" name="LineageOS-UL/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="be72de4fa4be75a20794c4b0d5beab982eb95bb5" />
+  <project path="hardware/qcom/media" name="ArsenalsOs/aos_hardware_qcom_media" groups="qcom,pdk-qcom" revision="refs/heads/aosul" />
   <project path="packages/apps/Nfc" name="ArsenalsOs/aos_packages_apps_Nfc" revision="refs/heads/aosul" />
   <project path="packages/apps/Settings" name="ArsenalsOs/aos_packages_apps_Settings" groups="pdk-fs" revision="refs/heads/aosul" />
   <project path="packages/modules/adb" name="ArsenalsOs/aos_packages_modules_adb" revision="refs/heads/aosul" />
@@ -83,7 +83,7 @@
   <project path="packages/modules/Wifi" name="LineageOS-UL/android_packages_modules_Wifi" remote="github" revision="f173d0b571312e76287b250f6cff272c8f553a9b" />
   <project path="prebuilts/abi-dumps/ndk" name="LineageOS-UL/android_prebuilts_abi-dumps_ndk" groups="pdk-fs" clone-depth="1" remote="github" revision="b2256e1ad23827b9fdbda164f3085f40e3e33b0f" />
   <project path="prebuilts/build-tools" name="LineageOS-UL/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="github" revision="6e72d6ff911bba1f67fb4c4d886141c1abd8c14b" />
-  <project path="prebuilts/sdk" name="LineageOS-UL/android_prebuilts_sdk" groups="pdk" clone-depth="1" remote="github" revision="7c9e73c38751ed7285eaaebdd7a3b1cd1bc74bad" />
+  <project path="prebuilts/sdk" name="ArsenalsOs/aos_prebuilts_sdk" groups="pdk" clone-depth="1" revision="refs/heads/aosul" />
   <project path="system/bpf" name="ArsenalsOs/aos_system_bpf" revision="refs/heads/aosul" />
   <project path="system/libhidl" name="ArsenalsOs/aos_system_libhidl" groups="pdk" revision="refs/heads/aosul" />
   <project path="system/libhwbinder" name="ArsenalsOs/aos_system_libhwbinder" groups="pdk" revision="refs/heads/aosul" />
