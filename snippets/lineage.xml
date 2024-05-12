@@ -5,7 +5,6 @@
   <project path="android" remote="lineage" name="LineageOS/android" revision="56bf1c3bd4c36d89928325ba06fe15d54d28534a" />
   <project path="device/lineage/atv" remote="lineage" name="LineageOS/android_device_lineage_atv" revision="e7f731a1c6deaec9cbef0910c49cf2262c20c1f2" />
   <project path="device/lineage/car" remote="lineage" name="LineageOS/android_device_lineage_car" revision="b588ae4550fcc9dec7427bfdba498826d8ced50c" />
-  <project path="device/lineage/sepolicy" remote="lineage" name="LineageOS/android_device_lineage_sepolicy" revision="ef2575884fd024b45c280b3c3d4581eafe463f08" />
   <project path="external/bash" remote="lineage" name="LineageOS/android_external_bash" revision="9f59ea3199a83697b4e1adcd4ac35484ac824c67" />
   <project path="external/chromium-webview/patches" remote="lineage" name="LineageOS/android_external_chromium-webview_patches" groups="pdk" upstream="main" dest-branch="main" revision="864d156749fb347d47c2142e694abb566f5b4dd4" >
     <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
