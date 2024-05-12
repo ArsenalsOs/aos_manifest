@@ -58,7 +58,6 @@
   <project path="hardware/sony/timekeep" remote="github" name="LineageOS/android_hardware_sony_timekeep" revision="11c1535c71b97f0ab833e215a8121ed107235010" upstream="lineage-21" dest-branch="lineage-21" />
 
   <project path="art" name="ArsenalsOs/aos_art" revision="refs/heads/aosul" />
-  <project path="device/lineage/sepolicy" name="LineageOS-UL/android_device_lineage_sepolicy" remote="github" revision="6e40bcbb7097d1b44a497a8db93449ecac626b55" />
   <project path="external/jemalloc_new" name="ArsenalsOs/aos_external_jemalloc_new" revision="refs/heads/aosul" />
   <project path="external/perfetto" name="ArsenalsOs/aos_external_perfetto" revision="refs/heads/aosul" />
   <project path="frameworks/av" name="ArsenalsOs/aos_frameworks_av" revision="refs/heads/aosul" />
