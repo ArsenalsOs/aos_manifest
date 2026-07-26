@@ -1189,7 +1189,7 @@
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineageos" revision="5fe77d65cae6ffcf592698be272ab97867533425" />
   <project path="kernel/xiaomi/sm8450-devicetrees" name="android_kernel_xiaomi_sm8450-devicetrees" remote="lineageos" revision="895b75b6cc027e069960554c329e94b3f4b0f825" />
   <project path="kernel/xiaomi/sm8450-modules" name="android_kernel_xiaomi_sm8450-modules" remote="lineageos" revision="ae45c06de3317b5ffcdf47bb9ccf35f7126d5933" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="arsenals" revision="aos26" />
+  <project path="frameworks/base" name="aos_frameworks_base" remote="arsenals" revision="aos26" />
   <project path="build/soong" name="aos_build_soong" remote="arsenals" revision="aos26" />
   <project path="build/make" name="aos_build_make" remote="arsenals" revision="aos26">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -1206,8 +1206,8 @@
   <project path="vendor/arsenals/aos" name="aos_vendor_arsenals_aos" remote="arsenals" revision="aos26" />
   <project path="vendor/arsenals/arsenalsos" name="aos_vendor_arsenals_arsenalsos" remote="arsenals" revision="aos26" />
   <project path="kernel/arsenals/kernelsu" name="aos_kernel_arsenals_kernelsu" remote="arsenals" revision="aos26" />
-  <project path="kernel/xiaomi/sm8450" name="android_kernel_xiaomi_sm8450" remote="arsenals" revision="aos26" />
+  <project path="kernel/xiaomi/sm8450" name="aos_kernel_xiaomi_sm8450" remote="arsenals" revision="aos26" />
   <project path="device/xiaomi/marble" name="aos_device_xiaomi_marble" remote="arsenals" revision="aos26" />
-  <project path="vendor/xiaomi/marble" name="proprietary_vendor_xiaomi_marble" remote="arsenals" revision="aos26" />
+  <project path="vendor/xiaomi/marble" name="aos_vendor_xiaomi_marble" remote="arsenals" revision="aos26" />
   <project path="external/bash" name="aos_external_bash" remote="arsenals" revision="aos26" />
 </manifest>
