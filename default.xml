@@ -5,6 +5,7 @@
   <remote name="aosp" fetch="https://android.googlesource.com" />
   <remote name="lineageos" fetch="https://github.com/LineageOS/" />
   <remote name="arsenals" fetch="https://github.com/ArsenalsOs/" />
+  <remote name="themuppets" fetch="https://github.com/TheMuppets/" />
   <project path="android" name="LineageOS/android" remote="github" revision="5c3bbcbf9364c096cbe9a361af998e0bc398bdc6" />
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" remote="github" revision="9be7336035b8823fff3fbcacdcfb0205d039dd2b" />
   <project path="device/lineage/car" name="LineageOS/android_device_lineage_car" remote="github" revision="0f3b40241c5ceff1be0d19dd41bffca028e7c75c" />
@@ -161,7 +162,7 @@
   <project path="hardware/qcom-caf/sm8750/display/intf" name="LineageOS/android_vendor_qcom_opensource_display-intf" remote="github" revision="19b5c055b40bc3d7af4309662eea98c7e7a72cee" />
   <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" remote="github" revision="05ea2d4b71544b92e9c9206af51be6ef6e176ba9" />
   <project path="hardware/qcom-caf/thermal-legacy-um" name="LineageOS/android_hardware_qcom_thermal" remote="github" revision="ed7107216e598c4089d8ea2ed1d39c117ffab0c1" />
-  <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" remote="github" revision="f8a7ef82fef4d49a2ed9d86da62437af1411df67" />
+  <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" remote="github" revision="d9e72d8f8eef2397ac9eca1bf7f03a52696425a3" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="efe21bde722a3585e357bee0e09e5da54f229589" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" remote="github" revision="943789d6972cc2e05b9e26afbb21cd53253784d7" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar" remote="github" revision="f8dfc3dc2eb9cf9b183036e019647a9b06b8bdce" />
@@ -1209,5 +1210,6 @@
   <project path="kernel/xiaomi/sm8450" name="aos26_kernel_xiaomi_sm8450" remote="arsenals" revision="aos26" />
   <project path="device/xiaomi/marble" name="aos_device_xiaomi_marble" remote="arsenals" revision="aos26" />
   <project path="vendor/xiaomi/marble" name="aos26_vendor_xiaomi_marble" remote="arsenals" revision="aos26" />
+  <project path="vendor/xiaomi/sm8450-common" name="proprietary_vendor_xiaomi_sm8450-common" remote="themuppets" revision="ec93fb51a4d24fad612b9b300b68fa8964b34b5b" />
   <project path="external/bash" name="aos_external_bash" remote="arsenals" revision="aos26" />
 </manifest>
