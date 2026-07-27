@@ -1210,6 +1210,6 @@
   <project path="kernel/xiaomi/sm8450" name="aos26_kernel_xiaomi_sm8450" remote="arsenals" revision="aos26" />
   <project path="device/xiaomi/marble" name="aos_device_xiaomi_marble" remote="arsenals" revision="aos26" />
   <project path="vendor/xiaomi/marble" name="aos26_vendor_xiaomi_marble" remote="arsenals" revision="aos26" />
-  <project path="vendor/xiaomi/sm8450-common" name="proprietary_vendor_xiaomi_sm8450-common" remote="themuppets" revision="ec93fb51a4d24fad612b9b300b68fa8964b34b5b" />
+  <project path="vendor/xiaomi/sm8450-common" name="aos26_vendor_xiaomi_sm8450-common" remote="arsenals" revision="aos26" />
   <project path="external/bash" name="aos_external_bash" remote="arsenals" revision="aos26" />
 </manifest>
